@@ -29,7 +29,7 @@ def GridParamTune(dtrain,gridParams,EvalMetric,params,Drop=1,verbose=1):
     ### iterate over all combinations
     for row in itertools.product(*gridParams.values()):
         ### random search threshold
-        if np.random.random(1)[0] < Drop:
+        if np.random.random(1)[0] > Drop:
             continue 
         
         # insert values into param dict
