@@ -1,6 +1,9 @@
 
 ### Author Taran
 ### Xgboost support modelling functions
+import pandas as pd
+import numpy as np
+
 
 def GridParamTune(dtrain,gridParams,EvalMetric,params,Drop=1,verbose=1):
     '''
@@ -62,7 +65,7 @@ def GridParamTune(dtrain,gridParams,EvalMetric,params,Drop=1,verbose=1):
                   
     return df
 
-def overFitRelations(paramName,paramResults=paramResults):
+def overFitRelations(paramName,paramResults):
     '''
     Arg - paramName
     returns a plot and a df showing over fit relation
