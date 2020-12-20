@@ -2,6 +2,14 @@
 
 ### MultiLabel Classification problem
 
+* XgBoost parameter training framework [Notebook](https://github.com/Seeker875/MoADrugDiscovery/blob/master/dev/xgBoostParamTune.ipynb)
+
+* MultiLabel model training with TensorFlow [Notebook](https://github.com/Seeker875/MoADrugDiscovery/blob/master/dev/tfForAllVars.ipynb)
+
+* Bash Venv [file](https://github.com/Seeker875/MoADrugDiscovery/blob/master/venv.sh) for setting Python Environment
+
+
+
 [Kaggle Link](https://www.kaggle.com/c/lish-moa/data)
 
 In current approaches for Drug discovery, Scientists seek to identify a protein target associated with a disease and develop a molecule that can modulate that protein target. As a shorthand to describe the biological activity of a given molecule, scientists assign a label referred to as mechanism-of-action or MoA for short.
@@ -16,7 +24,7 @@ Effects of a drug on the protien target
 
 ### Implementations include:
 
- Nural nets and Xgboost with focus on representation learning
+ Neural nets and Xgboost with focus on representation learning
  
  ### Directory structure
  
